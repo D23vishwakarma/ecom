@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ShopEase</title>
+  <link rel="stylesheet" href="ecom.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-...=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+<div class="sidebar">
+  <button onclick="remove()">X</button>
+   <div class="sidebar-header">
+    <h2>NovaCart</h2>
+  </div>
+  <nav class="sidebar-nav">
+    <ul>
+      <li><a href="#"><span class="icon">🏠</span> Dashboard</a></li>
+      <li><a href="#"><span class="icon">👤</span> Profile</a></li>
+      <li><a href="#"><span class="icon">📦</span> Orders</a></li>
+      <li><a href="#"><span class="icon">💖</span> Wishlist</a></li>
+      <li><a href="#"><span class="icon">🛒</span> Cart</a></li>
+      <li><a href="settings.html"><span class="icon">⚙️</span> Settings</a></li>
+      <li><a href="#"><span class="icon">🔔</span> Notifications</a></li>
+      <li><a href="#"><span class="icon">📞</span> Support</a></li>
+      <li><a href="#"><span class="icon">🚪</span> Logout</a></li>
+    </ul>
+  </nav>
+</div>
+<div class="cont">
+  <header>
+    <div class="hel">
+    <i class="fa-solid fa-bars"></i>
+    <div class="logo">NovaCart</div></div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="products.html">Products</a>
+      <a href="login.html">Login</a>
+      <a href="signup.html">Sign Up</a>
+      <a href="cart.html">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <p>0</p>
+        </a>
+      
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img  class="pic">
+
+
+    <button class="left"><i class="fa-solid fa-chevron-left"></i></button>
+    <button class="right"><i class="fa-solid fa-chevron-right"></i></button>
+  </section>
+  
+  <section id="products" class="products">
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://m.media-amazon.com/images/I/91lDZrrLkCL._UY1100_.jpg" alt="Product 1">
+        <h3>Stylish Shirt</h3>
+        <p>$29.99</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://images-cdn.ubuy.co.in/66023f3cc4fde233421eb9bc-new-smart-watch-call-receive-dial-hd.jpg" alt="Product 2">
+        <h3>Smart Watch</h3>
+        <p>$99.99</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWOM56Bvvljqft99DkZQHxdWbqe7kRXOy9yQ&s" alt="Product 3">
+        <h3>Sneakers</h3>
+        <p>$59.99</p>
+        <button>Add to Cart</button>
+      </div>
+          <div class="product-card">
+        <img src="https://vibemusic.in/wp-content/uploads/2024/07/Hertz-LP-Custom-Electric-Guitar-FM.jpeg" alt="Product 3">
+        <h3>Guitars</h3>
+        <p>$59.99</p>
+        <button>Add to Cart</button>
+      </div>
+          <div class="product-card">
+        <img src="https://ik.imagekit.io/budli/images/full/0e36625afe341ce739026302ce446a3f.png?tr=h-250%2Cw-250%2Ccm-pad_resize&ik-sdk-version=react-1.1.1" alt="Product 3">
+        <h3>Laptops</h3>
+        <p>$59.99</p>
+        <button>Add to Cart</button>
+      </div>
+          <div class="product-card">
+        <img src="https://rukminim2.flixcart.com/image/240/240/xif0q/outdoor-toy/w/d/w/-original-imah44c7dzgzndhu.jpeg?q=60" alt="Product 3">
+        <h3>Sneakers</h3>
+        <p>$59.99</p>
+        <button>Add to Cart</button>
+      </div>
+          <div class="product-card">
+        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/treadmill/3/a/h/rpm800-4-in-1-multifunction-for-men-women-homegym-workout-non-original-imahd8ch9jjfe8hh.jpeg?q=70" alt="Product 3">
+        <h3>Sneakers</h3>
+        <p>$59.99</p>
+        <button>Add to Cart</button>
+      </div>
+          <div class="product-card">
+        <img src="https://rukminim1.flixcart.com/image/240/240/xif0q/lunch-box/c/t/9/1900-pro-lunch-box-3-containers-1-chutney-dabba-1-bottle-spoon-original-imagkf9vy7c3nhyy.jpeg?q=60" alt="Product 3">
+        <h3>Sneakers</h3>
+        <p>$59.99</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+    <div class="slide">
+      <h3>Best Seller in Books</h3>
+      <button class="l"><i class="fa-solid fa-chevron-left"></i></button>
+    <button class="r"><i class="fa-solid fa-chevron-right"></i></button>
+    <div class="p-grid">
+      <div class="contain">
+        <img src="https://m.media-amazon.com/images/I/91ZVf3kNrcL._AC_SY200_.jpg" alt="Product 1">
+      </div>
+      <div class="contain">
+        <img src="https://m.media-amazon.com/images/I/61urHRFZpYL._AC_SY200_.jpg" alt="Product 1">
+      </div>
+      <div class="contain">
+        <img src="https://m.media-amazon.com/images/I/81+efMYN9wL._AC_SY200_.jpg" alt="Product 1">
+      </div>
+      <div class="contain">
+        <img src="https://m.media-amazon.com/images/I/81ANaVZk5LL._AC_SY200_.jpg" alt="Product 1">
+      </div>
+      <div class="contain">
+        <img src="https://m.media-amazon.com/images/I/81dGKZOtqIL._AC_SY200_.jpg" alt="Product 1">
+      </div>
+      <div class="contain">
+        <img src="https://m.media-amazon.com/images/I/81zaplRGWBL._AC_SY200_.jpg" alt="Product 1">
+      </div>
+      <div class="contain">
+        <img src="https://m.media-amazon.com/images/I/8151hnV9SrL._AC_SY200_.jpg" alt="Product 1">
+      </div>
+      <div class="contain">
+        <img src="https://m.media-amazon.com/images/I/61STKZcryUL._AC_SY200_.jpg" alt="Product 1">
+      </div>
+      <div class="contain">
+        <img src="https://m.media-amazon.com/images/I/71S3Z-h0LHL._AC_SY200_.jpg" alt="Product 1">
+      </div>
+      <div class="contain">
+        <img src="https://m.media-amazon.com/images/I/81qsstEtrgL._AC_SY200_.jpg" alt="Product 1">
+      </div>
+      <div class="contain">
+        <img src="https://m.media-amazon.com/images/I/71c+ReofeoL._AC_SY200_.jpg" alt="Product 1">
+      </div>
+      <div class="contain">
+        <img src="https://m.media-amazon.com/images/I/812W6UKfgVL._AC_SY200_.jpg" alt="Product 1">
+      </div>
+      <div class="contain">
+        <img src="https://m.media-amazon.com/images/I/81mpSoJzv4L._AC_SY200_.jpg" alt="Product 1">
+      </div>
+      <div class="contain">
+        <img src="https://m.media-amazon.com/images/I/81AHTyq2wVL._AC_SY200_.jpg" alt="Product 1">
+      </div>
+      <div class="contain">
+        <img src="https://m.media-amazon.com/images/I/71f+Y8UyfDL._AC_SY200_.jpg" alt="Product 1">
+      </div>
+      <div class="contain">
+        <img src="https://m.media-amazon.com/images/I/715mUao8RLL._AC_SY200_.jpg" alt="Product 1">
+      </div>
+      <div class="contain">
+        <img src="https://m.media-amazon.com/images/I/819I+YyuU-L._AC_SY200_.jpg" alt="Product 1">
+      </div>
+      <div class="contain">
+        <img src="https://m.media-amazon.com/images/I/81Rz9l29NiL._AC_SY200_.jpg" alt="Product 1">
+      </div>
+      
+    </div>
+    </div>
+    <div class="slide1">
+      <h3>Best Sellers in Home</h3>
+      <button class="l1"><i class="fa-solid fa-chevron-left"></i></button>
+    <button class="r1"><i class="fa-solid fa-chevron-right"></i></button>
+    <div class="p-grid1">
+      <div class="contain1">
+        <img src="https://m.media-amazon.com/images/I/71b8fh-dQ4L._AC_SY200_.jpg" alt="Product 1">
+      </div>
+      <div class="contain1">
+        <img src="https://m.media-amazon.com/images/I/811XxyvomTL._AC_SY200_.jpg" alt="Product 1">
+      </div>
+      <div class="contain1">
+        <img src="https://m.media-amazon.com/images/I/81-X1rSie5L._AC_SY200_.jpg" alt="Product 1">
+      </div>
+      <div class="contain1">
+        <img src="https://m.media-amazon.com/images/I/71Si2QlAb3L._AC_SY200_.jpg" alt="Product 1">
+      </div>
+      <div class="contain1">
+        <img src="https://m.media-amazon.com/images/I/91MTW21x7pL._AC_SY200_.jpg" alt="Product 1">
+      </div>
+      <div class="contain1">
+        <img src="https://m.media-amazon.com/images/I/71A5SvOD8lL._AC_SY200_.jpg" alt="Product 1">
+      </div>
+      <div class="contain1">
+        <img src="https://m.media-amazon.com/images/I/813SLfB2VML._AC_SY200_.jpg" alt="Product 1">
+      </div>
+      <div class="contain1">
+        <img src="https://m.media-amazon.com/images/I/617z6N3l59L._AC_SY200_.jpg" alt="Product 1">
+      </div>
+      <div class="contain1">
+        <img src="https://m.media-amazon.com/images/I/91GwkTk87gL._AC_SY200_.jpg" alt="Product 1">
+      </div>
+      <div class="contain1">
+        <img src="https://m.media-amazon.com/images/I/714tUfj1g-L._AC_SY200_.jpg" alt="Product 1">
+      </div>
+      <div class="contain">
+        <img src="https://m.media-amazon.com/images/I/61S1tvRFMML._AC_SY200_.jpg" alt="Product 1">
+      </div>
+      <div class="contain1">
+        <img src="https://m.media-amazon.com/images/I/81bpKKv68-L._AC_SY200_.jpg" alt="Product 1">
+      </div>
+      <div class="contain1">
+        <img src="https://m.media-amazon.com/images/I/61b9Ktrca9L._AC_SY200_.jpg" alt="Product 1">
+      </div>
+      <div class="contain1">
+        <img src="https://m.media-amazon.com/images/I/713afJ6oJ+L._AC_SY200_.jpg" alt="Product 1">
+      </div>
+      <div class="contain1">
+        <img src="https://m.media-amazon.com/images/I/71M6a8SHCeL._AC_SY200_.jpg" alt="Product 1">
+      </div>
+      <div class="contain1">
+        <img src="https://m.media-amazon.com/images/I/71b8fh-dQ4L._AC_SY200_.jpg" alt="Product 1">
+      </div>
+      <div class="contain1">
+        <img src="https://m.media-amazon.com/images/I/6106fi0HQeL._AC_SY200_.jpg" alt="Product 1">
+      </div>
+      <div class="contain1">
+        <img src="https://m.media-amazon.com/images/I/714tUfj1g-L._AC_SY200_.jpg" alt="Product 1">
+      </div>
+      
+    </div>
+    </div>
+  </section>
+  <div class="signin">
+    <div class="h3">
+    <h3>Sign in for Personalised Experience</h3></div>
+    <a href="signup.html"><button>Sign Up</button></a>
+    <p>already have a account? <a href="login.html">login</a></p>
+  </div>
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Help Center</a>
+      <a href="#">Language</a>
+    </div>
+    <p>&copy; 2025 ShopEase. All rights reserved.</p>
+  </div>
+</footer>
+</div>
+<script src="ecom.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

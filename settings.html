@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings - E-Commerce</title>
+    <link rel="stylesheet" href="settings.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        
+        <h2>NovaCart</h2>
+        <button ><a href="ecommerce.html">X</a></button>
+        <ul>
+            <li>🏠 Dashboard</li>
+            <li>👤 Profile</li>
+            <li>📦 Orders</li>
+            <li>💖 Wishlist</li>
+            <li>🛒 Cart</li>
+            <li class="active">⚙️ Settings</li>
+            <li>🔔 Notifications</li>
+            <li>📞 Support</li>
+            <li>🚪 Logout</li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="settings-container">
+        <h1>Account Settings</h1>
+
+        <section>
+            <h2>Account Information</h2>
+            <form>
+                <label>Full Name</label>
+                <input type="text" placeholder="John Doe">
+                <label>Email Address</label>
+                <input type="email" placeholder="johndoe@example.com">
+                <label>Phone Number</label>
+                <input type="tel" placeholder="+1 234 567 890">
+                <button type="submit">Save Changes</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Address Management</h2>
+            <form>
+                <label>Street Address</label>
+                <input type="text" placeholder="123 Main St">
+                <label>City</label>
+                <input type="text" placeholder="New York">
+                <label>ZIP Code</label>
+                <input type="text" placeholder="10001">
+                <label>Country</label>
+                <input type="text" placeholder="USA">
+                <button type="submit">Update Address</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Payment Methods</h2>
+            <form>
+                <label>Cardholder Name</label>
+                <input type="text" placeholder="John Doe">
+                <label>Card Number</label>
+                <input type="text" placeholder="XXXX-XXXX-XXXX-1234">
+                <label>Expiry Date</label>
+                <input type="text" placeholder="MM/YY">
+                <label>CVV</label>
+                <input type="text" placeholder="123">
+                <button type="submit">Save Payment Method</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Privacy & Security</h2>
+            <form>
+                <label>Change Password</label>
+                <input type="password" placeholder="New Password">
+                <label>Confirm Password</label>
+                <input type="password" placeholder="Confirm Password">
+                <button type="submit">Update Password</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Notifications</h2>
+            <form>
+                <label><input type="checkbox" checked> Email Notifications</label>
+                <label><input type="checkbox"> SMS Notifications</label>
+                <label><input type="checkbox" checked> Promotional Offers</label>
+                <button type="submit">Save Preferences</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Language & Currency</h2>
+            <form>
+                <label>Language</label>
+                <select>
+                    <option>English</option>
+                    <option>Hindi</option>
+                    <option>Spanish</option>
+                </select>
+                <label>Currency</label>
+                <select>
+                    <option>USD</option>
+                    <option>INR</option>
+                    <option>EUR</option>
+                </select>
+                <button type="submit">Save Settings</button>
+            </form>
+        </section>
+
+        <section class="danger-zone">
+            <h2>Delete Account</h2>
+            <p>Once you delete your account, there is no going back. Please be certain.</p>
+            <button class="delete-btn">Delete My Account</button>
+        </section>
+    </div>
+<script src="ecom.js"></script>
+</body>
+</html>
